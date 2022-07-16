@@ -1,0 +1,89 @@
+body {
+  border: solid;
+  background-color: lightblue;
+}
+
+.forming {
+  width: 400px;
+  margin: auto;
+  margin: 5.5% auto;
+  padding: 10px 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #52B2B5;
+  border-radius: 10px;
+  color: white;
+
+}
+
+
+
+.title{
+  font-weight:900 ;
+  font-size: larger;
+}
+
+.inputing {
+  margin-bottom: 25px;
+  margin-top: 5px;
+  width: 20rem;
+  border: none;
+  border-radius: 7px;
+  height: 45px;
+  font-size: 17px;
+}
+
+/* .textareaing {
+  margin-bottom: 25px;
+  border-radius: 7px;
+
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px;
+  height: 90px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+::placeholder {
+  filter: brightness(180%);
+}
+
+/* .selecting {
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px;
+  height: 45px;
+  font-weight: bold;
+  font-size: large;
+  background-color: white;
+} */
+
+h1 {
+  text-align: center;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.inputingBtn {
+  width: 100%;
+  border-color: white ;
+  border: 20px;
+  height: 45px;
+  font-size: 17px;
+  color: white;
+  background: lightblue;
+  border-radius: 50px;
+  margin: 20px auto;
+}
+
+.inputingBtn:hover {
+  background-color: #52B2B5;
+  cursor:pointer;
+  border-color: white;
+  border: solid 1px;
+}
+
+p {
+  word-spacing: 250px;
+}

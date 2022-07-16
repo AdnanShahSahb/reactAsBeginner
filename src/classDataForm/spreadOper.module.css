@@ -1,0 +1,105 @@
+/* html {
+    margin-right: 0;width: 100%;
+    padding: 0;
+} */
+/* 
+body{
+    margin: 0;width: 100%;
+    padding: 0;
+} */
+body {
+
+    background-color: aliceblue;
+    margin: 0;
+    /*Overflow hiding is a big no-no*/
+    overflow-x:hidden;
+
+}
+.divv{
+    /* border: solid; */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hed{
+    margin: 5% auto;
+    /* border: solid; */
+    background-color: lightblue;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.asdf{
+    font-weight: 900;
+}
+
+.formed{
+    margin:auto;
+    /* border: solid; */
+    background-color: lightblue;
+    padding: 30px;
+}
+
+.inputed{
+    margin:auto ;
+    width: 150px;
+    /* border: solid ; */
+    background-color: aliceblue;
+}
+
+
+.inputed:hover{
+    background-color: lightblue;
+
+    transform: scale(0.98);
+}
+
+.labeled{
+    font-weight: bolder;
+
+}
+
+.buttons{
+    margin: 80px 23rem;
+    /* border: none; */
+}
+
+#buttoned{
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    font-weight:900;
+    border:transparent;
+    margin: 1rem auto;
+    height: 40px;
+    width: 195px;
+}
+
+/* input[type=submit]{
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    font-weight:900;
+    border:transparent;
+    margin: 1% auto;
+    height: 40px;
+    width: 195px;
+} */
+
+
+
+.btn1:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+.btn2:hover{
+    background-color: lightblue;
+    transform: scale(0.98);
+    cursor: pointer;
+}
+
+
